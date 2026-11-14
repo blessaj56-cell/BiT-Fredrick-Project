@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: beige;
+    z-index: 10;
+    
+}
+
+
+.logo {
+    height: 120px;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.nav p {
+    display: inline-block;
+    font-family: 'Georgia';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+nav {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+
+}
